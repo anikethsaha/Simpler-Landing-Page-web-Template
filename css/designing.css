@@ -1,0 +1,131 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif; font-size: 20px; }
+
+body { background-color: white; }
+
+.container { height: inherit; width: 95%; margin: auto; }
+
+.head { height: 4em; width: 100%; background-color: white; position: fixed; z-index: 99; box-shadow: 2px 2px 2px darkseagreen; }
+.head .container { margin-top: .5em; }
+
+.nav { height: 100%; width: 100%; }
+
+.resp-menu { width: 2em; height: 2em; box-sizing: border-box; position: absolute; padding: .5em; display: none; }
+.resp-menu img { height: inherit; width: inherit; }
+
+.logo { height: 4em; width: 11em; float: left; }
+.logo h1 { color: darkseagreen; margin: auto; text-align: center; vertical-align: middle; line-height: 1.5em; font-size: 2em; }
+
+.menu-bar { float: left; min-width: 31em; height: 50%; margin: auto; padding: 0.4em; margin-top: .5em; margin-left: 5em; }
+.menu-bar ul { list-style-type: none; width: 100%; height: inherit; }
+.menu-bar ul li { width: 20%; display: inline-block; height: inherit; text-align: center; padding-left: 1em; }
+.menu-bar ul li a { text-align: center; text-decoration: none; line-height: 1.1em; font-size: .9em; color: darkseagreen; text-transform: uppercase; }
+
+.search { float: right; margin-top: .6em; margin-right: 3em; }
+.search #search-btn { content: " "; background-image: url("C:/xampp/htdocs/coup/images/magnifier.png"); background-size: cover; height: 2em; width: 1.6em; text-decoration: none; border: none; overflow: hidden; margin-left: -1em; }
+
+.main { padding-top: 3em; height: 100%; width: 100%; }
+
+.first-look { width: 100%; height: 33em; background-image: url("images/imageph.png"); padding: 5em; }
+.first-look h1 { font-size: 5em; color: darkseagreen; text-align: center; text-transform: uppercase; word-spacing: 10px; border-bottom: 4px solid darkseagreen; padding-bottom: 1em; border-top: 4px solid darkseagreen; padding-top: 1em; font-weight: 400; }
+
+.slider-box { height: 35em; width: 100%; overflow: hidden; background-size: cover; padding: 2em; background-color: seagreen; }
+.slider-box #mob-slider-pic { float: left; height: 100%; }
+.slider-box .images-mob { height: 77.4%; width: 19%; float: left; margin-top: 3.5em; margin-left: -15.3em; background-image: url("images/imageph.png"); transition: 0.3s transform ease-in-out; -webkit-transition: 0.3s transform ease-in-out; -moz-transition: 0.3s transform ease-in-out; overflow: hidden; }
+.slider-box .images-mob img { height: 100%; width: 100%; }
+.slider-box #lap-slider-pic { height: 60%; width: 40%; margin-left: -8em; margin-top: 13.5em; float: left; }
+.slider-box .images-lap { float: left; width: 29.1%; box-sizing: border-box; height: 46%; margin-top: 15em; margin-left: -22em; overflow: hidden; }
+.slider-box .images-lap img { width: 100%; height: 100%; }
+.slider-box #desk-slider-pic { width: 31%; height: 95%; margin-left: -7em; margin-top: 5em; float: left; }
+.slider-box .images-desk { float: left; width: 27.4%; box-sizing: border-box; height: 54%; margin-top: 9em; margin-left: -18.5em; overflow: hidden; }
+.slider-box .images-desk img { width: 100%; height: 100%; }
+
+.slider-text { float: left; width: 73%; height: 100%; padding: 2em; padding-top: 2em; padding-top: 4em; }
+.slider-text h1 { font-size: 6em; text-transform: full-width; word-spacing: 2.1em; color: white; font-weight: 400; }
+
+#right-holder h1 { color: white; position: absolute; height: 0.8em; width: 0.8em; top: 135%; left: 0; font-size: 4em; cursor: pointer; }
+
+#left-holder h1 { color: white; position: absolute; height: 0.8em; width: 0.8em; top: 135%; right: 0; font-size: 4em; cursor: pointer; }
+
+.segment-1 { box-sizing: inherit; width: 100%; margin-top: 2em; height: 20em; }
+.segment-1 .red { background-color: crimson; }
+.segment-1 h1 { width: 60%; height: 2em; font-size: 2em; text-align: center; line-height: 2em; color: darkseagreen; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid darkseagreen; margin: auto; }
+
+.seg-box { height: 14em; width: 100%; }
+
+.seg-content { height: 100%; width: 30%; padding: 1em; float: left; border: 2px solid darkseagreen; margin: 1em; transition: 0.3s box-shadow ease-in-out; -webkit-transition: 0.3s box-shadow ease-in-out; -moz-transition: 0.3s box-shadow ease-in-out; }
+.seg-content:hover { box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3); }
+.seg-content p { color: darkseagreen; }
+
+.how-it-work { height: 30em; width: 100%; background-color: seagreen; margin-top: 2em; margin-bottom: 2em; }
+.how-it-work h2 { color: white; text-align: center; width: 100%; font-size: 1.7em; text-transform: uppercase; padding: .5em; padding-bottom: 0.5em; padding-bottom: 0; }
+.how-it-work div { float: left; width: 25%; height: 84%; margin: 2.8em; margin-top: 2.8em; margin-top: 1em; }
+.how-it-work div img { width: 50%; margin: 13%; margin-left: 27%; }
+.how-it-work div h2 { text-align: center; color: white; font-size: 1.2em; font-weight: 400; text-transform: uppercase; padding-bottom: .5em; }
+.how-it-work div p { padding: 10px 30px; font-size: .9em; text-align: center; color: white; }
+
+footer { width: 100%; height: 15em; background-color: white; border-top: 2px solid darkseagreen; margin-top: 2em; }
+footer p { text-align: center; text-transform: uppercase; color: darkseagreen; padding: .5em; }
+
+.footer-tages { width: 35%; text-align: center; list-style: none; padding: 1em; height: 85%; text-transform: uppercase; color: darkseagreen; margin: 1em; float: left; }
+.footer-tages .quick-links { float: left; width: 30%; text-align: center; }
+.footer-tages .quick-links h2 { text-transform: none; padding: 1em; padding-bottom: 1em; padding-left: 1em; padding-left: 0; padding-bottom: 1.3em; text-align: initial; font-weight: 700; font-size: 1.3em; }
+.footer-tages .quick-links li { font-size: .8em; list-style: none; text-align: initial; }
+.footer-tages .quick-links li a { text-decoration: none; color: inherit; font-size: .8em; font-weight: 700; word-spacing: 3px; }
+
+.newsletter-tag { float: left; width: 35%; margin-top: 4em; }
+.newsletter-tag form { width: 100%; float: left; }
+.newsletter-tag form #newsletter-email { width: 65%; padding: 1em; padding: 1em; border: 1px solid darkseagreen; border-right-width: 1px; border-right-style: solid; border-right-color: darkseagreen; border-right: 0; text-transform: uppercase; color: darkseagreen; }
+.newsletter-tag form #newsletter-submit { padding: 1em; width: 33%; background-color: darkseagreen; border: 0; color: white; text-align: left; text-transform: uppercase; font-weight: 400; margin-left: -.3em; border: 1px solid darkseagreen; }
+
+#newsletter-sumbit::hover { background-color: seagreen; }
+
+.copyright-tag { background-color: seagreen; color: white; width: 100%; float: left; }
+.copyright-tag p { font-family: "Raleway", sans-serif; color: white; font-size: .7em; text-align: center; }
+
+@media only screen and (min-width: 1345px) { .slider-box .images-mob { height: 77.4%; width: 21.3%; } }
+@media only screen and (max-width: 480px) { .head { height: 3em; position: relative; transition: 0.6s all ease-in-out; -webkit-transition: 0.6s all ease-in-out; -moz-transition: 0.6s all ease-in-out; }
+  .head.up { transition: 0.6s all ease-in-out; -webkit-transition: 0.6s all ease-in-out; -moz-transition: 0.6s all ease-in-out; height: 16em; }
+  .main { padding-top: 0; width: 100%; margin: auto; }
+  .resp-menu { display: block; margin: .5em; padding: 0; transition: 0.2s all ease-in-out; -webkit-transition: 0.2s all ease-in-out; -moz-transition: 0.2s all ease-in-out; }
+  .resp-menu.rotate { transform: rotate(90deg); }
+  .logo { height: 4em; width: 100%; float: none; margin: auto; }
+  .logo img { height: inherit; width: 20%; margin: auto; margin-left: 40%; }
+  .search { display: none; }
+  .menu-bar { min-width: 100%; height: 8em; margin: auto; padding: 0em; margin-top: 0em; border-left: none; border-right: none; transition: 0.2s all ease-in-out; -webkit-transition: 0.2s all ease-in-out; -moz-transition: 0.2s all ease-in-out; display: none; }
+  .menu-bar ul li { width: 100%; display: inline-block; height: 2em; text-align: center; padding-left: 0em; }
+  .menu-bar ul li a { text-align: center; text-decoration: none; line-height: 2.1em; font-size: 0.9em; color: rgba(25, 24, 24, 0.46); text-transform: uppercase; }
+  .slider-box { width: 100%; height: 27em; overflow: hidden; background-size: cover; padding: .5em; padding-top: 3em; }
+  .slider-box #mob-slider-pic { float: left; height: 45%; width: 35%; margin: auto; margin-left: 34%; }
+  .slider-box .images-mob { width: 28%; float: left; margin-top: 6.7%; margin-left: -31.5%; height: 36%;            /* width: 2.66em; float: left; margin-top: .7em; margin-left: -3em;
+*/ }
+  .slider-text { float: left; width: 100%; height: 100%; padding: .5em; padding-top: 0.5em; padding-top: 2em; padding-top: 1em; }
+  .slider-text h1 { font-size: 2em; text-transform: uppercase; color: white; text-align: center; width: 100%; }
+  #left-holder h1, #right-holder h1 { color: white; position: absolute; width: 1.2em; height: 1.5em; top: 70%; font-size: 2em; cursor: pointer; }
+  #left-holder { left: 0; }
+  #right-holder { right: 0; }
+  .segment-1 { box-sizing: inherit; width: 100%; height: 28em; }
+  .segment-1 h1 { font-size: 1em; }
+  .segment-1 p { font-size: 1em; }
+  .seg-box { height: 8em; width: 100%; }
+  .seg-box .seg-content { width: 90%; margin: 0; float: left; height: 100%; border: 1px solid rgba(0, 0, 0, 0.5); font-size: small; margin-top: 1em; text-align: center; margin-left: 5.3%; }
+  .first-look { width: 100%; height: 12em; padding: 2em; }
+  .first-look h1 { font-size: 1.5em; color: darkseagreen; text-align: center; text-transform: uppercase; word-spacing: 10px; border-bottom: 4px solid darkseagreen; padding-bottom: 0em; border-top: 4px solid darkseagreen; padding-top: 1.5em; height: 100%; }
+  .how-it-work { height: 45em; width: 100%; background-color: seagreen; margin-top: 2em; margin-bottom: 2em; }
+  .how-it-work h2 { color: white; text-align: center; width: 100%; font-size: 1.7em; text-transform: uppercase; padding: .5em; padding-bottom: 0; }
+  .how-it-work div { float: left; width: 100%; height: 26%; margin: 0; margin-top: 1em; }
+  .how-it-work div img { width: 22%; margin: 2%; margin-left: 40%; }
+  .how-it-work div h2 { text-align: center; color: white; font-size: 1em; font-weight: 400; text-transform: uppercase; padding-bottom: .5em; }
+  .how-it-work div p { padding: 10px 30px; font-size: .6em; text-align: center; color: white; word-spacing: .1em; }
+  footer { height: 30em; }
+  .footer-tages { width: 100%; text-align: center; list-style: none; text-transform: uppercase; color: darkseagreen; padding: 0; margin: 0; }
+  .footer-tages .quick-links { text-align: center; width: 100%; text-align: center; }
+  .footer-tages .quick-links h2 { padding: 1em 0 1em 0; text-align: center; }
+  .footer-tages .quick-links li { text-align: center; }
+  .newsletter-tag { width: 100%; margin: 0; }
+  .newsletter-tag form #newsletter-email { width: 60%; }
+  .newsletter-tag form #newsletter-submit { width: 40%; }
+  .copyright-tag { height: 4em; padding-top: 1em; }
+  .copyright-tag p { padding: 0; }
+  .book-details div { width: 100%; padding: 0; } }
+
+/*# sourceMappingURL=designing.css.map */
